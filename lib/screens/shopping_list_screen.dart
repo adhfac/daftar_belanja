@@ -1,7 +1,6 @@
 import 'package:daftar_belanja/services/shopping_service.dart';
 import 'package:flutter/material.dart';
 
-
 class ShoppingListScreen extends StatefulWidget {
   const ShoppingListScreen({super.key});
 
@@ -16,9 +15,11 @@ class _ShoppingListScreenState extends State<ShoppingListScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text('App'),),
+      appBar: AppBar(
+        title: Text('App'),
+      ),
       body: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
+        crossAxisAlignment: CrossAxisAlignment.center,
         children: [
           Padding(
             padding: const EdgeInsets.all(10.0),
